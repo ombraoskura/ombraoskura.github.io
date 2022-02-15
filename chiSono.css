@@ -1,0 +1,59 @@
+html, body {
+    margin:0px;
+    padding:0px;
+    background-color:#333333;
+    }
+        
+        
+    #menuOr {
+    text-align:center;
+    background-color:#666;
+    }
+        
+    #menuOr ul {
+    margin:0px;
+    padding:0px;
+    overflow:hidden;
+    list-style-type:none;
+    }
+        
+    #menuOr ul a:link , ul a:visited{
+        display:block;
+        padding:10px;
+        text-decoration:none;
+        color:white;
+        text-transform:uppercase;
+        font-size: 20px;
+        }
+        
+    #menuOr ul a:hover {
+    background-color:grey;
+    }
+        
+    #menuOr ul li{
+    float:left;
+    width:150px;
+    }
+    
+    #titolo{
+        background-color: #333333;
+        text-align: center;
+        color: white;
+        font-size: 50px
+    }
+
+    #descrizione{
+        color: white;
+        font-family: cursive;
+        text-align: center;
+        background-image: url(nebbia.gif);
+        background-repeat: no-repeat;
+        background-size: 2000px;
+    }
+
+    #copyright{
+        background-color: rgb(88, 1, 88);
+        color: white;
+        font-family: cursive;
+        font-size: 12px;
+    }
