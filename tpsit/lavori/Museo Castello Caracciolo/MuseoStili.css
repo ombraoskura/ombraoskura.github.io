@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(224, 223, 223)
+}
+
+#menuOr {
+    text-align:center;
+    background-color:brown;
+    }
+        
+    #menuOr ul {
+    margin:0px;
+    padding:0px;
+    overflow:hidden;
+    list-style-type:none;
+    }
+        
+    #menuOr ul a:link , ul a:visited{
+        display:block;
+        padding:10px;
+        text-decoration:none;
+        color:white;
+        text-transform:uppercase;
+        font-size: 14px;
+    }
+        
+    #menuOr ul li{
+    float:left;
+    width:150px;
+    }
+
+    #titolo{
+            color:brown;
+            font-size: 40px;
+            text-align:center;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+    }
+
+    #comenasce{
+        color: #bb2722;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+        font-size: 26px;
+    }
+
+    #descrizione{
+        text-align: center;
+    }
