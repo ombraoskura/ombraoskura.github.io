@@ -5,6 +5,9 @@ html, body {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: unset;
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
     }
         
     #menuOr {
