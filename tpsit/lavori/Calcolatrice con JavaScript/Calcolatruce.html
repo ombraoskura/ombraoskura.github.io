@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <title>calcolatruce.com</title>
+        <link rel="stylesheet" href="calcolatriceStili.css">
+        <script type="text/javascript">
+            function funzioneProdotto(){
+                var numero1=document.forms["due_numeri"] ["n1"]. valute;
+                var numero2=document.forms["due_numeri"] ["n2"]. valute;
+                risultato= numero1*numero2;
+                window.alert("Risultato: " + risultato);
+            }
+        </script>
+    </head>
+    <body>
+        <div id="titolo">
+            Inserire Dati
+        </div>
+        <form name="calcolatruce">
+            Primo Numero <input name="n1" type="text"> <br>
+            Secondo Numero <input name="n1" type="text"> <br>
+            <input type="button" value="calcola!" onclick="funzioneProdotto()">
+        </form>
+    </body>
+</html>
