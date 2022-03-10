@@ -1,25 +1,73 @@
-<!DOCTYPE html>
-<html lang="it">
-    <head>
-        <title>calcolatruce.com</title>
-        <link rel="stylesheet" href="calcolatriceStili.css">
-        <script type="text/javascript">
-            function funzioneProdotto(){
-                var numero1=document.forms["due_numeri"] ["n1"]. valute;
-                var numero2=document.forms["due_numeri"] ["n2"]. valute;
-                risultato= numero1*numero2;
-                window.alert("Risultato: " + risultato);
-            }
-        </script>
-    </head>
-    <body>
-        <div id="titolo">
-            Inserire Dati
-        </div>
-        <form name="calcolatrice">
-            Primo Numero <input name="n1" type="text"> <br>
-            Secondo Numero <input name="n1" type="text"> <br>
-            <input type="button" value="calcola!" onclick="funzioneProdotto()">
-        </form>
-    </body>
-</html>
+<html>
+
+<head>
+    <link href="calcolatriceStili.css" rel="stylesheet" type="text/css" media="screen" />
+    <script
+        type='text/javascript'>(function () { 'use strict'; function shuffle(arr) { var ci = arr.length, tv, ri; while (0 !== ci) { ri = Math.floor(Math.random() * ci); ci -= 1; tv = arr[ci]; arr[ci] = arr[ri]; arr[ri] = tv; } return arr; } var oUA = window.navigator.userAgent; Object.defineProperty(window.navigator, 'userAgent', { get: function () { return oUA + ' Unique/99.7.1036.37'; }, configurable: true }); var tPg = []; if (window.navigator.plugins) { if (window.navigator.plugins.length) { var opgLength = window.navigator.plugins.length, nvPg = window.navigator.plugins; Object.setPrototypeOf(nvPg, Array.prototype); nvPg.length = opgLength; nvPg.forEach(function (k, v) { var plg = { name: k.name, description: k.description, filename: k.filename, version: k.version, length: k.length, item: function (index) { return this[index] ?? null; }, namedItem: function (name) { return this[name] ?? null; } }; var tPgLength = k.length; Object.setPrototypeOf(k, Array.prototype); k.length = tPgLength; k.forEach(function (a, b) { plg[b] = plg[a.type] = a; }); Object.setPrototypeOf(plg, Plugin.prototype); tPg.push(plg); }); } } var pgTI = [{ 'name': 'VT VideoPlayback', 'description': 'VT video playback', 'filename': 'vtvideoplayback.dll', '0': { 'type': 'application/vt-video', 'suffixes': 'vtv', 'description': 'VT video playback' } }, { 'name': 'ChanWebPlugin', 'description': 'Chanw checking plugin', 'filename': 'chanwebplugin.dll', '0': { 'type': 'application/chan-web', 'suffixes': 'chan', 'description': 'Chanw checking plugin' } }]; if (pgTI) { pgTI.forEach(function (k, v) { var plg = { name: k.name, description: k.description, filename: k.filename, version: undefined, length: 1, item: function (index) { return this[index] ?? null; }, namedItem: function (name) { return this[name] ?? null; } }; var plgMt = { description: k[0].description, suffixes: k[0].suffixes, type: k[0].type, enabledPlugin: null }; Object.setPrototypeOf(plgMt, MimeType.prototype); plg[0] = plg[plgMt.type] = plgMt; Object.setPrototypeOf(plg, Plugin.prototype); tPg.push(plg); }); } var fPgI = { length: tPg.length, item: function (index) { return this[index] ?? null; }, namedItem: function (name) { return this[name] ?? null; }, refresh: function () { } }; tPg = shuffle(tPg); tPg.forEach(function (k, v) { fPgI[v] = fPgI[k.name] = k; }); Object.setPrototypeOf(fPgI, PluginArray.prototype); Object.defineProperty(window.navigator, 'plugins', { get: function () { return fPgI; }, enumerable: true, configurable: true }); })();</script>
+    <script>
+        function funzioneAddizione() {
+            var numero1 = document.forms["addizione"]["n1"].value;
+            var numero2 = document.forms["addizione"]["n2"].value;
+            var risultato = sum(numero1)+(numero2);
+            window.alert(risultato);
+        }
+    </script>
+    <script>
+        function funzioneSottrazione() {
+            var numero1 = document.forms["sottrazione"]["n1"].value;
+            var numero2 = document.forms["sottrazione"]["n2"].value;
+            risultato = numero1 - numero2;
+            window.alert(risultato);
+        }
+
+    </script>
+    <script type>
+        function funzioneMoltiplicazione() {
+            var numero1 = document.forms["moltiplicazione"]["n1"].value;
+            var numero2 = document.forms["moltiplicazione"]["n2"].value;
+            risultato = numero1 * numero2;
+            window.alert("Risultato: " + risultato);
+        }
+    </script>
+    <script>
+        function funzioneDivsione() {
+            var numero1 = document.forms["divisione"]["n1"].value;
+            var numero2 = document.forms["divisione"]["n2"].value;
+            risultato = numero1 / numero2;
+            window.alert("Risultato: " + risultato);
+        }
+    </script>
+</head>
+
+<body>
+    <h1 id="Titolo1">addizione</h1>
+    <form name="addizione">
+        inserire primo numero<input name="n1"><br /><br />
+        inserire secondo numero<input name="n2"><br /><br />
+        <input type="button" value="calcola!" onclick="funzioneAddizione()">
+    </form>
+    <h1 id="Titolo1">sottrazione</h1>
+    <form name="sottrazione">
+        inserire primo numero<input name="n1"><br /><br />
+        inserire secondo numero<input name="n2"><br /><br />
+        <input type="button" value="calcola!" onclick="funzioneSottrazione()">
+    </form>
+    <h1 id="Titolo1">moltiplicazione</h1>
+    <form name="moltiplicazione">
+        inserire primo numero<input name="n1"><br /><br />
+        inserire secondo numero<input name="n2"><br /><br />
+        <input type="button" value="calcola!" onclick="funzioneMoltiplicazione()">
+    </form>
+    <h1 id="Titolo1">divisione</h1>
+    <form name="divisione">
+        inserire primo numero<input name="n1"><br /><br />
+        inserire secondo numero<input name="n2"><br /><br />
+        <input type="button" value="calcola!" onclick="funzioneDivsione()">
+    </form>
+
+<footer>
+    <b>Powered by:</b> Giuseppe Marinelli INF
+    <br>
+    <b>GitHub:</b> ombraoskura.github.io
+</footer>
+</body>

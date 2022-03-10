@@ -3,6 +3,7 @@ body{
     margin: 0%;
     padding: 0%;
     border:0;
+    text-align: center;
 }
 
 #titolo{
@@ -11,7 +12,12 @@ body{
     color: black
 }
 
-form{
-    border-style: solid;
-    border-color: red;
+#Titolo1{
+    color: brown;
+}
+
+footer{
+    background-color: rgb(73, 72, 72);
+    color: white;
+    text-align: left;
 }
