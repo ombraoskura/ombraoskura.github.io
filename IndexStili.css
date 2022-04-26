@@ -2,7 +2,7 @@ body {
 margin:0px;
 padding:0px;
 background-size: unset;
-background-image: url(IndexImg/marmo.jpg);
+background-image: url(IndexImg/jarvis.jpg);
 background-repeat: no-repeat;
 background-size: 1900px;
 text-align: center;
@@ -27,7 +27,7 @@ display:block;
 padding:10px;
 text-decoration:none;
 font-weight: bold;
-color:black;
+color:rgb(255, 255, 255);
 text-transform:uppercase;
 font-size: 20px;
 }
@@ -47,7 +47,7 @@ width:150px;
 }
 
 #copyright{
-    background-color: rgb(88, 1, 88);
+    background-color: rgba(1, 88, 78, 0.383);
     color: white;
     font-size: 20px;
     text-align: left;
