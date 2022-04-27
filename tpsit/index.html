@@ -4,9 +4,18 @@
 <head>
     <title>TPSIT.com</title>
     <link rel="stylesheet" href="indexStili.css">
+    <script>
+        window.addEventListener("load", e => {
+            const caricamento = document.getElementById("scermata_caricamento");
+            caricamento.style.display = "none";
+        })
+    </script>
 </head>
 
 <body>
+    <div id="scermata_caricamento">
+        <div id="caricamento"></div>
+    </div>
     <div id="header">
         <div id="menuOr">
             <ul>

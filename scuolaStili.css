@@ -3,7 +3,28 @@ body {
     padding:0px;
     background-color:#333333;
     }
-        
+    
+    #scermata_caricamento{
+        width: 100vw;
+        height: 100vw;
+        position: fixed;
+        background-color: black;  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #caricamento{
+        width: 100vw;
+        height: 100vw;
+        position: fixed;
+        background-image: url(IndexImg/Loading.gif); 
+        background-repeat: no-repeat;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-size: 100vw;
+    }
         
     #menuOr {
     text-align:center;
