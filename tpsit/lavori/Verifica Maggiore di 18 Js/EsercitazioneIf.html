@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <script>
+            function Verifica(){
+                var image = document.getElementById('Image')
+                if(testo>18){
+                    image.src= "sole.png";
+                }
+                else{
+                    image.src= "luna.png";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <input id="testo" type="text"> <br>
+        <input id="pulsante" type="button" value="Verifica" onclick="Verifica()">
+        <div><img id="sole" src="sole.png"></div> 
+        <div><img id="luna" src="luna.png"></div> 
+    </body>
+</html>
