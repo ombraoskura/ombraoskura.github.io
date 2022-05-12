@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <title>www.SemaforoVoti.com</title>
+        <link rel="stylesheet" href="SemaforoVotiStili.css">
+        <script>
+            function VerificaVoto(){
+                var voto = document.getElementById('Voto').selectedIndex;
+               
+               if(voto>=7){
+                   document.getElementById("output").innerHTML=voto;
+                   document.getElementById("output").style.color="rgb(0, 176, 0)";
+               }
+               if(voto==5){
+                    document.getElementById("output").innerHTML=voto;
+                    document.getElementById("output").style.color="orange";
+               }
+               if(voto<5){
+                    document.getElementById("output").innerHTML=voto;
+                    document.getElementById("output").style.color="rgb(255, 0, 0)";
+               }
+            }
+        </script>
+    </head>
+    <div id="titolo">
+        INSERISCI VOTI
+    </div>
+    <body>
+        <select name="voti" id="Voto">
+            <option value="0">Selezione il voto</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <br>
+        <div id="output"></div>
+        <br>
+        <button onclick="VerificaVoto()">Conferma</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <footer id="copyright">>
+            powered by: Giuseppe Marinelli <br>
+            section: 3b inf <br>
+            e-mail: ombraoskura.github.io
+        </footer>
+    </body>
+</html>
