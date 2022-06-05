@@ -19,13 +19,13 @@ body{
     width: 100vw;
     height: 100vw;
     position: fixed;
-    background-image: url(imagini/animazioni/SchermataDiCaricamento1.gif); 
+    background-image: url(imagini/animazioni/SchermataDiCaricamento.gif); 
     background-repeat: no-repeat;
     align-items: center;
     justify-content: center;
     background-repeat: no-repeat;
-    background-size: 100vw;
-}
+    background-size: 93vw;
+    }
 
 #menuOr {
     text-align:center;
