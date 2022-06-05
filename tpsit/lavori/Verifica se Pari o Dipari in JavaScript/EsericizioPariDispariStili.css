@@ -3,6 +3,7 @@ body{
     padding: 0%;
     border: 0px;
     text-align: center;
+    background-color: rgb(202, 199, 199);
 }
 
 #Titolo{
@@ -16,6 +17,12 @@ body{
 #output{
     width: 12px;
     font-weight: bold;
+    background-color:rgb(238, 255, 0);
+}
+
+#Istruzioni{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 14px;
 }
 
 #copyright{

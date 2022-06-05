@@ -1,59 +1,67 @@
 <!DOCTYPE html>
 <html lang="it">
-    <head>
-        <link rel="stylesheet" href="EsericizioPariDispariStili.css">
-        <script>
-            function verifica(){
-            var dato= document.getElementById('dato').innerHTML=dato;
-            if(dato%2==0){
+
+<head>
+    <title>verifica se pari o dispari</title>
+    <link rel="stylesheet" href="EsericizioPariDispariStili.css">
+    <script>
+        function verifica() {
+            var dato = document.getElementById('dato').value;
+            if (dato % 2 == 0) {
                 document.getElementById("output").value = 1;
             }
-            else
+            else {
                 document.getElementById("output").value = 0;
+
+            }
         }
-        </script>
-    </head>
-    <body>
-        <div id="Titolo">VERIFCA SE IL NUMERO E PARI O DISPARI</div>
-        <hr>
-        <input type="text" id="dato">
-        <input type="text" id="output" disabled>
-        <br>
-        <br>
-        <input type="button" id="Pulsante" value="Verifica" onclick="verifica()">
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <hr>
-        <footer id="copyright">
-            powered by: Giuseppe Marinelli <br>
-            section: 3b inf <br>
-            e-mail: ombraoskura.github.io
-        </footer>
-    </body>
+    </script>
+</head>
+
+<body>
+    <div id="Titolo">VERIFCA SE IL NUMERO E PARI O DISPARI</div>
+    <br>
+    <div id="Istruzioni">Inserisci un numero nella casella di testo è verifica tramite la casella gialla se e pari o dispari. <br>
+        PARI = 1 <br>
+        DISPARI = 0</div>
+    <hr>
+    <input type="text" id="dato">
+    <input type="text" id="output" disable>
+    <br>
+    <br>
+    <input type="button" onclick="verifica()" value="Verifica!">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <footer id="copyright">
+        powered by: Giuseppe Marinelli <br>
+        section: 3b inf <br>
+        e-mail: ombraoskura.github.io
+    </footer>
+</body>
+
 </html>
