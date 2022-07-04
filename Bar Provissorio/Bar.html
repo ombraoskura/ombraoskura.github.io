@@ -3,8 +3,17 @@
     <head>
         <title>La Torteria Menù</title>
         <link rel="stylesheet" href="BarStili.css">
+        <script>
+            window.addEventListener("load", e => {
+                const caricamento = document.getElementById("scermata_caricamento");
+                caricamento.style.display = "none";
+            })
+        </script>
     </head>
     <body>
+        <div id="scermata_caricamento">
+            <div id="caricamento"></div>
+        </div>
         <img src="Bar/logo.png" alt="" height="900" width="900"> <br>
         <div id="hormenu">
             <ul> 

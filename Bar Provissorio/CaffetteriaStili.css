@@ -6,6 +6,27 @@ body{
     
 }
 
+#scermata_caricamento{
+    width: 100vw;
+    height: 100vw;
+    position: fixed;
+    background-color: black;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#caricamento{
+    width: 100vw;
+    height: 100vw;
+    position: fixed;
+    background-image: url(Bar/Schermata\ di\ Caricamento.gif); 
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: 80vw;
+}
 #titolo{
     background-color: #ffde59;
     font-size: 60px;
