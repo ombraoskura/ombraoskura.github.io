@@ -1,9 +1,7 @@
 body{
-    
     margin: 0;
-    background-color: #fff3ee;
+    background-image: url(Bar/Generale/Sfondo.jpg);
     text-align: center;
-    
 }
 
 #scermata_caricamento{
