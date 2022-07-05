@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-image: url(Bar/Generale/Sfondo.jpg);
+    background-image: url(LaTorteriaImagini/Generale/Sfondo.jpg);
     text-align: center;
 }
 
@@ -18,7 +18,7 @@ body{
     width: 100vw;
     height: 100vw;
     position: fixed;
-    background-image: url(Bar/Schermata\ di\ Caricamento.gif); 
+    background-image: url(LaTorteriaImagini/Generale/Schermata\ di\ Caricamento.gif); 
     background-repeat: no-repeat;
     align-items: center;
     justify-content: center;
@@ -43,4 +43,5 @@ table{
 #prezzo{
     color: rgb(255, 67, 67);
     font-size: 25px;
+    font-weight: bold;
 }
